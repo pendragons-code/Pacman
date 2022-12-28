@@ -2,11 +2,10 @@
 <html>
   <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611229106272216"
      crossorigin="anonymous"></script>
-     <meta property="og:type" content="senghong.xyz">
-   <meta property="og:site_name" content="Woon Seng Hong's Pac-Man project!">
+     <meta property="og:type" content="code.senghong.xyz">
+   <meta property="og:site_name" content="A simple pacman project!">
    <meta property="og:title" content="Check it out!">
    <meta property="og:description" content="I like Pac-Man, I really do!">
-   <meta property="og:image" content="https://cdn.discordapp.com/avatars/875324148874895400/878abc72d61ba9be1ba06e5670de1c0e.png">
    <meta name=" theme-color" content="#1F618D">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,6 +27,7 @@
   </head>
 
   <body>
+    
     <div id='overflow-mask' class='overflow-mask'>
       <img id='backdrop' class='backdrop' src='app/style/graphics/backdrop.png'>
 
@@ -36,11 +36,14 @@
 
       <div id='main-menu-container' class='main-menu-container'>
         <img id='logo' class='logo' src='app/style/graphics/pacman_logo.png'>
-        <button id='game-start' class='game-start'>
+        <button id='game-start' class='game-start'style="margin-top: 10px">
           PLAY
         </button>
-        <button class='game-start2' onclick="location.href = 'https://code.senghong.xyz/';">
-          Main Site!
+        <button class='game-start' onclick="location.href = 'https://github.com/bward2/pacman-js';"style="margin-top: 10px">
+          Code
+        </button>
+        <button class='game-start' onclick="location.href = 'https://code.senghong.xyz/';"style="margin-top: 10px">
+          Main Site
         </button>
       </div>
 
@@ -154,6 +157,8 @@
           let gameCoordinator = new GameCoordinator();
         }
       </script>
+      
     </div>
+    
   </body>
 </html>
