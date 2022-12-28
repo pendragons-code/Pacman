@@ -8,3 +8,7 @@ I will update the [site](https://game.senghong.xyz) I'm hosting it on to credit 
 
 # TODOS
 get it working on safari
+
+# If you noticed
+
+So yes the site im hosting the instance of this on (repl.it) has a slightly different .mp3 file, why? For some reason during a change in replit, where old repls would break, some files got deleted and due to said change i had to remake a new repl, I found a ROM dump for a few of the sounds and got the thing working, as of this readme update, I have added in the sounds from the original repo to the site!
