@@ -19,3 +19,6 @@ So yes the site im hosting the instance of this on (repl.it) has a slightly diff
 npm i
 npm run deploy
 ```
+# how did i find it?
+
+I didn't my old friend cloned it and put it on gitlabs and here i was looking in the wrong place. One day i googled a line of code and ended up finding a fork of a fork (a fork was used to pr someone's fork) that led me to an original. Yeah get that.
